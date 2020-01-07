@@ -6,7 +6,7 @@ jobs:
   build:
 
     #runs-on: ubuntu-latest
-    runs-on: [linux, arm32]
+    runs-on: [linux, ARM32]
     steps:
     - uses: actions/checkout@v1
       #- name: configure
